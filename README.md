@@ -1,5 +1,9 @@
 # OAAG
 
+The code and data preparation is based on [this repo](https://github.com/abisee/pointer-generator).
+
+## Dataset
+
 This is an benchmark dataset for opinion-aware answer generation in E-Commerce. You can downloaded the processed dataset via the following url: 
 
 https://drive.google.com/file/d/19012ClEam378QzPWL8ww8HMpBcjye_Rf/view?usp=sharing
