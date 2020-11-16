@@ -1,0 +1,6 @@
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-sport --data_path=../data/sport/chunked/train_* --valid_path=../data/sport/chunked/test_* --vocab_path=../data/sport/vocab
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-home --data_path=../data/home/chunked/train_* --valid_path=../data/home/chunked/test_* --vocab_path=../data/home/vocab
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-elec --data_path=../data/elec/chunked/train_* --valid_path=../data/elec/chunked/test_* --vocab_path=../data/elec/vocab
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-elec --data_path=../data/elec/chunked/test_* --vocab_path=../data/elec/vocab --mode=decode --single_pass=True
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-home --data_path=../data/home/chunked/test_* --vocab_path=../data/home/vocab --mode=decode --single_pass=True
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --exp_name=oaag-dy-sport --data_path=../data/sport/chunked/test_* --vocab_path=../data/sport/vocab --mode=decode --single_pass=True
